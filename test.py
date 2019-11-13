@@ -2,6 +2,10 @@ import time
 import random
 import os
 import PIL.ImageGrab
+import win32api
+import win32gui
+import win32con
+
 
 KEY_DICT = {
     "w": 87,
