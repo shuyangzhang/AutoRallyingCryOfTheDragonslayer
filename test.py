@@ -44,11 +44,11 @@ if __name__ == "__main__":
     hwnd = win32gui.FindWindow(0, WINDOW_NAME)
 
 if hwnd <= 0:
-	print("未启动，脚本关闭中...")
-	time.sleep(5)
-	exit(0)
+    print("未启动，脚本关闭中...")
+    time.sleep(5)
+    exit(0)
 else:
-	print("已检测到，正在运行脚本，请勿关闭窗口")
+    print("已检测到，正在运行脚本，请勿关闭窗口")
     while True:
         if get_pixel_color(960, 540) != (0, 0, 0):
             random_walk(hwnd)
