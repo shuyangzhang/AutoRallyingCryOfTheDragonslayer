@@ -18,8 +18,8 @@ KEY_DICT = {
 FAKE_DICT = {
     "w": 18,
     "s": 18,
-    "a": 70,
-    "d": 70,
+    "a": 115,
+    "d": 115,
     "space": 32
 }
 KEY_DICT = FAKE_DICT
