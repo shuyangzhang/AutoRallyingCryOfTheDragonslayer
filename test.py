@@ -35,6 +35,7 @@ def random_walk(hwnd):
     time_press = random.uniform(1, 3)
     key_1 = random.choice(["w", "s"])
     key_2 = random.choice(["a", "d"])
+    print(key_1, key_2)
 
     time.sleep(time_delta)
     win32api.PostMessage(hwnd, win32con.WM_KEYDOWN, KEY_DICT[key_1], 0)
