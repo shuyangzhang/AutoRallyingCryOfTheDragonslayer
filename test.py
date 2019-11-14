@@ -70,5 +70,5 @@ else:
             random_walk(hwnd)
             random_jump(hwnd)
         else:
-            terminate_app("notepad.exe")\
+            terminate_app("notepad.exe")
             time.sleep(5)
