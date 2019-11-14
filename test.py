@@ -15,6 +15,15 @@ KEY_DICT = {
     "space": 32
 }
 
+FAKE_DICT = {
+    "w": 18,
+    "s": 18,
+    "a": 70,
+    "d": 70,
+    "space": 32
+}
+KEY_DICT = FAKE_DICT
+
 def get_pixel_color(i_x, i_y):
     return PIL.ImageGrab.grab().load()[i_x, i_y]
 
